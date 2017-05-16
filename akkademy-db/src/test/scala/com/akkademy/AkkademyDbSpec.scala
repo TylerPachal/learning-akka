@@ -14,7 +14,7 @@ import scala.concurrent.duration._
 
 class AkkademyDbSpec extends FunSpecLike with Matchers {
 
-  implicit val system = ActorSystem("system", ConfigFactory.empty)
+  implicit val system = ActorSystem()
   private val duration = 5 seconds
   private implicit val timeout = Timeout(duration)
 

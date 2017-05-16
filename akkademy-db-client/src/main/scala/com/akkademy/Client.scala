@@ -10,7 +10,7 @@ import scala.concurrent.duration._
 class Client(remoteAddress: String) {
 
   private implicit val timeout = Timeout(2 seconds)
-  private implicit val system = ActorSystem("LocalSystem")
+  private implicit val system = ActorSystem()
   private val remoteDB = system.actorSelection(s"akka.tcp://akkademy@$remoteAddress/user/akkademy-db")
 
   def set(key: String, value: Any) = {
