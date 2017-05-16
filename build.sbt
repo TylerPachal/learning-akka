@@ -36,3 +36,8 @@ lazy val homeworkch1 = (project in file("homework-ch1")).settings(
   commonSettings,
   name := "homework-ch1"
 )
+
+lazy val homeworkch2 = (project in file("homework-ch2")).settings(
+  commonSettings,
+  name := "homework-ch2"
+)

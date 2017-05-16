@@ -1,4 +1,4 @@
-package com.tylerpachal
+package com.akkademy
 
 import akka.actor.Actor
 import akka.event.Logging

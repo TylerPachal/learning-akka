@@ -1,8 +1,8 @@
-package com.tylerpachal
+package com.akkademy
 
 import akka.actor.ActorSystem
 import akka.testkit.TestActorRef
-import com.tylerpachal.LastThingActor.StoreRequest
+import com.akkademy.LastThingActor.StoreRequest
 import org.scalatest.{FunSpecLike, Matchers}
 
 class LastThingActorSpec extends FunSpecLike with Matchers {
